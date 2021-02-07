@@ -38,7 +38,7 @@ library("rgeos")
 #I am going to create an object for the file directory as I believe that we are going to use it a lot
 #The object will be called "sdata" which is short for "sample data"
 
-sdata <- "Ebird_Data/ebd-data.txt"
+sdata <- "ebd-data.txt"
 
 #This will allow us to just put "sdata" in place of the file
 #I could use "x" or something short, but that would become annoying in the future if you wanted to use 
@@ -48,10 +48,10 @@ sdata <- "Ebird_Data/ebd-data.txt"
 #and "f_out for the output
 
 #This creates an object for the input - makes it easier to write
-f_in <- "Ebird_Data/ebd-data.txt"
+f_in <- "ebd-data.txt"
 
 #This creates an object for the output and where to put the new data ***I have put it into an excel to see what the problem is***
-f_out <- "Ebird_Data/YRWA-Outputs.txt"
+f_out <- "YRWA-Outputs.txt"
 
 #This (I believe) makes the data in the original eBird .txt file in the correct form for the functions
 p_data <- auk_ebd(f_in)
