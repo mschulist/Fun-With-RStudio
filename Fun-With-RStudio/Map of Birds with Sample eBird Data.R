@@ -33,6 +33,10 @@ library("sf")
 library("rnaturalearthhires")
 library("rgeos")
 
+#I first need to set the directory for the eBird data
+
+auk_set_ebd_path("Edbird_Data")
+
 #I am going to create an object for the file directory as I believe that we are going to use it a lot
 #The object will be called "sdata" which is short for "sample data"
 
